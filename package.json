@@ -25,7 +25,7 @@
   "dependencies": {
     "bindings": "~1.3.0",
     "debug": "2",
-    "ref": "1",
+    "ref": "git+ssh://git@github.com/arthur31416/ref.git",
     "ref-struct": "1",
     "nan": "2"
   },
@@ -43,5 +43,9 @@
   },
   "bugs": {
     "url": "http://github.com/node-ffi/node-ffi/issues"
+  },
+  "resolutions": {
+    "ref-array/bindings": "1.3.0",
+    "ref/bindings": "1.3.0"
   }
 }
